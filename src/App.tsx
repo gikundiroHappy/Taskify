@@ -19,7 +19,7 @@ const App: React.FC = () => {
   return (
     <div
       className="pt-10 bg-indigo-300 h-screen font-abc space-y-10
-    sm:bg-yellow-300 md:bg-green-300 lg:bg-pink-300 xl:bg-blue-300 2xl:bg-red-300"
+    "
     >
       <h1 className="text-center text-4xl">Taskify</h1>
       <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
